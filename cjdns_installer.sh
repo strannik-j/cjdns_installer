@@ -1,5 +1,5 @@
 #!/bin/sh
-USERNAME='strannik'
+USERNAME='user'
 
 
 
