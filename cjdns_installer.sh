@@ -9,6 +9,7 @@ USERNAME='user'
 sudo echo "Start"
 sudo apt-get update
 sudo apt-get install nodejs git build-essential libcap2-bin -y
+sudo zypper install libcap-progs
 cd /home/$USERNAME/
 mkdir repo; cd repo
 git clone https://github.com/cjdelisle/cjdns.git cjdns
