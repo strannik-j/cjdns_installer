@@ -7,9 +7,13 @@ USERNAME='user'
 # DO NOT EDIT #
 ###############
 sudo echo "Start"
+if (test -e /usr/bin/zypper);\
+then sudo zypper install -y nodejs git libcap-progs;
+else
 sudo apt-get update
-sudo apt-get install nodejs git build-essential libcap2-bin -y
-sudo zypper install libcap-progs
+sudo apt-get install nodejs git build-essential libcap2-bin -y;
+fi
+
 cd /home/$USERNAME/
 mkdir repo; cd repo
 git clone https://github.com/cjdelisle/cjdns.git cjdns
