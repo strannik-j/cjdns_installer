@@ -52,6 +52,19 @@ sudo rm cron.tmp
 
 #nano /home/$USERNAME/repo/cjdns/cjdroute.conf
 N=81; sed -e $N's/^/                    # rt\
+                    "188.226.183.183:43328": {\
+                            "contact": "hype@smash-net.org",\
+                            "password": "public_access",\
+                            "publicKey": "1y1jmqrw4r31jlp6yqmq30067rcp0tsgsdm3cs4k8l33pyfhpwn0.k",\
+                            "user": "weuxel"\
+                          }\
+                    "185.125.216.67:24297": {\
+                            "contact": "contact@bunjlabs.com",\
+                            "login": "default-login",\
+                            "password": "c5q2j63x5nkmt2yg2vjmlnfuh1jnjjf",\
+                            "peerName": "h.bunjlabs.com",
+                            "publicKey": "5dkw4x4tczb6x164qklggbgfy35cs5uxjl6tyyu4slu7nm4062q0.k"\
+                             },\
                     "91.214.242.142:52819": {\
                                 "login": "default-login",\
                                 "password":"g9mxq23zpvh8wrzplrmsbw1jy0wl97n",\
